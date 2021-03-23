@@ -14,6 +14,4 @@ router.post('/', cartAddController.addItemToCart)
 
 router.post('/checkout', checkoutController.checkout)
 
-// router.post('/add', cartController.addTwoNumbers)
-
 module.exports = router;

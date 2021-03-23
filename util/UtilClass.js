@@ -1,7 +1,6 @@
 const editList = (list, operator, sku, allowZeroQuantities) => {
     return list.map(item => {
         var temp = Object.assign({}, item);
-            // console.log("Received add parameter. SKU: " + sku);
         if (temp.sku === sku) {
             if(operator ==='+') {
                 temp.quantity = temp.quantity + 1;
